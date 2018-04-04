@@ -1,0 +1,49 @@
+/* stylesheet for the content, anything not layout related */
+body {
+  font-family: Verdana, sans-serif;
+}
+
+nav img {
+  color: white;
+}
+
+nav#defaultNav p {
+  font-size: 1em;
+  text-align: right;
+}
+
+nav#slideMenu p {
+  width: 100%;
+  height: 80px;
+}
+
+nav#slideMenu a {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  margin: 20px;
+  padding-top: 20px;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+nav#slideMenu a:hover {
+  background-color: rgba(244,30,215,0.5);
+}
+
+h1 {
+  font-size: 2em;
+}
+
+p {
+  font-size: 0.9em;
+  line-height: 1.3em,
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.center {
+  text-align: center;
+}
